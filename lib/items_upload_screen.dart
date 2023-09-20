@@ -46,7 +46,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
             height: 230,
             width: MediaQuery.of(context).size.width * 0.8,
             child: Center(
-              child:
+              child: imageFileUint8List != null ?
               Image.memory(imageFileUint8List!),
             ),
           ),
