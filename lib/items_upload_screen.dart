@@ -68,7 +68,13 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
               Icons.person_pin_rounded,
               color: Colors.white,
             ),
-            
+            title: SizedBox(
+              width: 250,
+                child: TextField(
+                  style: TextStyle(color: Colors.grey),
+                  controller: ,
+                ),
+            ),
           )
         ],
       ),
