@@ -1,5 +1,6 @@
 import 'package:amatrol_station_ar_versions/home_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 Future <void> main() async
@@ -12,7 +13,9 @@ Future <void> main() async
   }
   catch(errorMsg)
   {
-    print('Error::' + errorMsg.toString());
+    if (kDebugMode) {
+      print('Error::$errorMsg');
+    }
 
   }
   runApp(const MyApp());
