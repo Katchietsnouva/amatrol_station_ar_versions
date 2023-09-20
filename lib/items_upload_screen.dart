@@ -54,10 +54,16 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
               ),
             ),
           ),
+
+          // DIVIDER
           const Divider(
             color: Colors.white70,
             thickness: 2,
-          )
+          ),
+
+          // SELLER NAME
+
+          
         ],
       ),
     );
