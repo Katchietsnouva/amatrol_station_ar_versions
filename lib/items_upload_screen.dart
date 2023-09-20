@@ -11,7 +11,8 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
   Uint8List? imageFileUint8List;
 
   TextEditingController sellerNameTextEditingController = TextEditingController();
-  TextEditingController sellerNameTextEditingController = TextEditingController();
+  TextEditingController sellerPhoneTextEditingController = TextEditingController();
+  
 
 
   bool isUploading = false;
