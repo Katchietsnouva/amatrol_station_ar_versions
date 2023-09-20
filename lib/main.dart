@@ -12,7 +12,7 @@ Future <void> main() async
   }
   catch(errorMsg)
   {
-    print('Error::' + errorMsg.toString()):
+    print('Error::' + errorMsg.toString());
 
   }
   runApp(const MyApp());
