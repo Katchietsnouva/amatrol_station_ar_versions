@@ -1,3 +1,4 @@
+import 'package:amatrol_station_ar_versions/items_upload_screen.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -24,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
             onPressed:()
                 {
-
+                  Navigator.push(context, MaterialPageRoute(builder: (c)=> ItemsUploadScreen()));
                 },
             icon: const Icon(
               Icons.add,
