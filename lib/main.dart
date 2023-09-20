@@ -4,6 +4,13 @@ import 'package:flutter/material.dart';
 Future <void> main() async
 {
   try
+  {
+
+  }
+  catch(errorMsg)
+  {
+
+  }
   runApp(const MyApp());
 }
 
