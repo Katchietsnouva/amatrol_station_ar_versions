@@ -30,6 +30,6 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen>
   }
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return uploadFormScreen();
   }
 }
