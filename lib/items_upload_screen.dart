@@ -3,23 +3,17 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 
 class ItemsUploadScreen extends StatefulWidget {
-
-
   @override
   State<ItemsUploadScreen> createState() => _ItemsUploadScreenState();
 }
 
-class _ItemsUploadScreenState extends State<ItemsUploadScreen>
-{
+class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
   Uint8List? imageFileUint8List;
   bool isUploading = false;
 
-
-
   //upload form screen
 
-  Widget uploadFormScreen()
-  {
+  Widget uploadFormScreen() {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
@@ -32,8 +26,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen>
         ),
         centerTitle: true,
         leading: IconButton(
-          onPressed: ()
-          {
+          onPressed: () {
             Navigator.pop(context);
           },
           icon: const Icon(
@@ -44,11 +37,16 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen>
       ),
       body: ListView(
         children: [
-          isUploading
+          isUploading == true
+              ? const LinearProgressIndicator(
+                  color: Colors.purpleAccent,
+                )
+              : Container(),
         ],
       ),
     );
   }
+
   @override
   Widget build(BuildContext context) {
     return uploadFormScreen();
