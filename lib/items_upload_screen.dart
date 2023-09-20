@@ -81,7 +81,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
               width: 250,
                 child: TextField(
                   style: TextStyle(color: Colors.grey),
-                  controller: ,
+                  controller: sellerNameTextEditingController,
                 ),
             ),
           )
