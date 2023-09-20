@@ -13,7 +13,8 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
   TextEditingController sellerNameTextEditingController = TextEditingController();
   TextEditingController sellerPhoneTextEditingController = TextEditingController();
   TextEditingController itemNameTextEditingController = TextEditingController();
-  TextEditingController serialNumberEditingController = TextEditingController();
+  TextEditingController itemDescriptionTextEditingController = TextEditingController();
+  TextEditingController sellerNameTextEditingController = TextEditingController();
 
 
 
