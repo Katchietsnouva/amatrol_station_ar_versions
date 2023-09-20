@@ -3,6 +3,8 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 
 class ItemsUploadScreen extends StatefulWidget {
+  const ItemsUploadScreen({super.key});
+
   @override
   State<ItemsUploadScreen> createState() => _ItemsUploadScreenState();
 }
