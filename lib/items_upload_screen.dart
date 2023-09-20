@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class  extends StatefulWidget {
-  const ({super.key});
+class ItemsUploadScreen extends StatefulWidget {
+  const ItemsUploadScreen({super.key});
 
   @override
-  State<> createState() => _State();
+  State<ItemsUploadScreen> createState() => _ItemsUploadScreenState();
 }
 
-class _State extends State<> {
+class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
