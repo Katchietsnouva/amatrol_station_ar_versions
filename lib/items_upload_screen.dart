@@ -56,7 +56,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
           ),
           const Divider(
             color: Colors.white70,
-            
+            thickness: 2,
           )
         ],
       ),
