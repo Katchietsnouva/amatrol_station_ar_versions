@@ -5,7 +5,7 @@ Future <void> main() async
 {
   try
   {
-    WidgetsFlutterBinding
+    WidgetsFlutterBinding.ensureInitialized()
 
   }
   catch(errorMsg)
