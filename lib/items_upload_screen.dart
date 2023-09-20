@@ -17,6 +17,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen>
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: const Text(
           'Upload New Item',
           style: TextStyle(
