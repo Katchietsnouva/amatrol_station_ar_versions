@@ -1,7 +1,8 @@
 import 'package:amatrol_station_ar_versions/home_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async
+{
   runApp(const MyApp());
 }
 
