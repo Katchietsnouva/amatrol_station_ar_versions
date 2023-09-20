@@ -29,7 +29,6 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen>
           onPressed: ()
           {
             Navigator.pop(context);
-
           },
           icon: const Icon(
             Icons.arrow_back_rounded,
