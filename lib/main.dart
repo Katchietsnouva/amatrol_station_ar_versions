@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 Future <void> main() async
 {
-  
+  try
   runApp(const MyApp());
 }
 
