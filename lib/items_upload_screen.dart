@@ -44,7 +44,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen>
       ),
       body: ListView(
         children: [
-          
+          isUploading
         ],
       ),
     );
