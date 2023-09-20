@@ -63,7 +63,13 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
 
           // SELLER NAME
 
-          
+          const ListTile(
+            leading: Icon(
+              Icons.person_pin_rounded,
+              color: Colors.white,
+            ),
+            
+          )
         ],
       ),
     );
