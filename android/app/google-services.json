@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "492209155382",
+    "project_id": "amatrol-station-ar-versions",
+    "storage_bucket": "amatrol-station-ar-versions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492209155382:android:a2150a0e858a9eb73cd797",
+        "android_client_info": {
+          "package_name": "com.example.amatrolstationarversions"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo_X4YPsnbyCMkUR1Y1RObP-3jWZlEUcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
