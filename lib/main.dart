@@ -5,11 +5,12 @@ Future <void> main() async
 {
   try
   {
+    WidgetsFlutterBinding
 
   }
   catch(errorMsg)
   {
-    print
+    print('Error::' + errorMsg.toString()):
 
   }
   runApp(const MyApp());
