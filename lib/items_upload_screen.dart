@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 
 class ItemsUploadScreen extends StatefulWidget {
@@ -9,6 +11,10 @@ class ItemsUploadScreen extends StatefulWidget {
 
 class _ItemsUploadScreenState extends State<ItemsUploadScreen>
 {
+  Uint8List? imageFileUint8List;
+  bool isUploading = false;
+
+
 
   //upload form screen
 
@@ -35,6 +41,11 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen>
             color: Colors.white,
           ),
         ),
+      ),
+      body: ListView(
+        children: [
+          
+        ],
       ),
     );
   }
