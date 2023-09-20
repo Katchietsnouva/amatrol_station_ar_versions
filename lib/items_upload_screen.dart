@@ -28,9 +28,13 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen>
         leading: IconButton(
           onPressed: ()
           {
+            Navigator.pop(context);
 
           },
-          icon: Icons,
+          icon: const Icon(
+            Icons.arrow_back_rounded,
+            color: Colors.white,
+          ),
         ),
       ),
     );
