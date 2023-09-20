@@ -47,9 +47,10 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
             width: MediaQuery.of(context).size.width * 0.8,
             child: Center(
               child: imageFileUint8List != null ?
-              Image.memory(imageFileUint8List!) : Icon(
+              Image.memory(imageFileUint8List!) : const Icon(
                 Icons.image_not_supported,
                 color: Colors.grey,
+                size: 40,
               ),
             ),
           ),
